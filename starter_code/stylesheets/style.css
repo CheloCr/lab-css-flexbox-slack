@@ -5,3 +5,145 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 10px;
+}
+
+nav{
+    width:100vw;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+
+img.menu {
+    width:50px;
+    height:50px;
+}
+img.nav {
+    width:100px;
+    height:90px;
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+        display:none;
+    }
+}
+
+
+header {
+display:flex;
+flex-direction:column;
+align-items: center;
+}
+
+h1 {
+    margin-left:20px;
+    font-size:6em;
+    margin-left:30px;
+    margin-top:10px;
+   
+  
+
+}
+
+header >p {
+    font-size:2.5rem;
+    padding:10px;
+}
+
+input {
+    width:400px;
+    height:50px;
+    margin-bottom:20px;
+    border-color:grey;
+}
+
+header > button {
+    width:400px;
+    height:50px;
+  
+    background-color: #192592;
+    color:white;
+    font-weight: bold;
+    font-size:1.4rem;
+    
+}
+
+p > a {
+    font-size:2rem;
+}
+
+header > img {
+    width:100%;
+}
+
+
+
+img {
+    width:150px;
+    
+}
+
+div.main {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#F4F3F4;
+}
+
+div > h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin:20px;
+}
+
+div > p {
+    font-size: 2rem;
+    text-align: center;
+    margin:20px;
+    padding:
+    50px;
+}
+
+div.main > button {
+    width:400px;
+    height:50px;
+    margin-bottom:40px;
+    font-size:20px;
+    font-weight: bold;
+    color: #192592;
+    
+}
+
+
+
+div.main > img {
+    width:60%;
+    margin-bottom:80px;
+    
+}
+
+div.maintwo > button{
+    text-align: center;
+    width:400px;
+    height:50px;
+    font-size:20px;
+    font-weight: bold;
+    color: #192592;
+}
+
+
+
+
+
+
+
+
+
